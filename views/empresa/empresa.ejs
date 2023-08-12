@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPRESA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style type="text/css">
+        .dropdown-menu li{
+        position: relative;
+      }
+      .dropdown-menu .submenu{
+        display: none;
+        position: absolute;
+        left: 100%;
+        top:-7px;
+      }
+      .dropdown-menu>li:hover>.submenu{
+      display: block;
+      }
+      </style>
+        
+        </head>
+      <body>
+          <nav class="navbar navbar-expand-lg navbar bg-primary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Sistema</a>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mantenimiento
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/paises">Paises</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/departamentos">Departamento</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        
+                        <li><a class="dropdown-item" href="/logout">Cerrar</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Administracion
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Formulario 1</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Formulario 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        
+                        <li><a class="dropdown-item" href="#">Formulario3</a></li>                  
+                      </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                        Consultas
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Formulario 1</a></li>
+                        <li><a class="dropdown-item" href="#">Formulario 2 &raquo;</a>
+                        <ul class="dropdown-menu submenu">
+                          <li><a class="dropdown-item" href="#">Sub1</a></li>
+                          <li><a class="dropdown-item" href="#">Sub2</a></li>
+                        </ul>
+                      </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Reportes
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Formulario 1</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Formulario 2</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        
+                        <li><a class="dropdown-item" href="#">Formulario3</a></li>
+                      </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Registros
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/empresa">Eempresa</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/sucursales">Sucursales</a></li>
+                        <li><hr class="dropdown-divider"></li> 
+                        <li><a class="dropdown-item" href="/proveedor">Proveedor</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/areas_trabajo">Areas de Trabajo</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/tipousuario">Tipo de Usuario</a></li>
+                        <li><hr class="dropdown-divider"></li> 
+                        <li><a class="dropdown-item" href="/usuario">Usuario</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/clientes">Clientes</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/producto">Producto</a></li>
+                        <li><hr class="dropdown-divider"></li> 
+                        <li><a class="dropdown-item" href="/formapago">Forma de Pago</a></li>
+                        <li><hr class="dropdown-divider"></li> 
+                        <li><a class="dropdown-item" href="/encabezado_compra">Encabezado de Compra</a></li>
+                      </ul>
+                    </li>
+      
+      
+                  </ul>
+
+                
+                  
+                  <!--
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form> -->
+                </div>
+                
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">HTML</a></li>
+                  <li><a tabindex="-1" href="#">CSS</a></li>
+                  <li>
+                    <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                      <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                      <li>
+                        <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">3rd level dropdown</a></li>
+                          <li><a href="#">3rd level dropdown</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            
+      
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <a href="/crearempresa" class="btn btn-outline-info"><i class='bx bxs-edit'>Crear</i></a>
+                <div class="mb-3">
+                  <br><br>
+                  <input type="text" id="autocompleta_busqueda" class="form-control form-control-lg" placeholder="Digite el Nombre de la Empresa" />
+                  <span id="buscar_resultado"></span>
+                  </div>                  
+                <table class="table table-borbered table-hover">
+                    <thead>
+                        <tr> 
+
+                            <th scope="col">Empresa</th>
+                            <th scope="col">Nombre</th>                           
+                            <th scope="col">Direccion</th>
+                            <th scope="col">RTN</th>
+                            <th scope="col">Telefono</th>  
+                            <th scope="col">Correo</th>  
+                            <th scope="col">Contacto</th>  
+                            <th scope="col">Fecha de Creacion</th>  
+                            <th scope="col">Estado</th>  
+                        </tr>
+                    </thead>
+                    <tbody>
+                     <% results.forEach((empresa)=> { %>                                
+                         <tr>
+                            <td><%= empresa.idempresa%></td>
+                            <td><%= empresa.nombre%></td>
+                            <td><%= empresa.direccion%></td>
+                            <td><%= empresa.rtn%></td>
+                            <td><%= empresa.telefono%></td>
+                            <td><%= empresa.correo%></td>
+                            <td><%= empresa.contacto%></td>
+                            <td><%= empresa.fecha_creacion%></td>
+                            <td><%= empresa.estado%></td>
+                            <td>
+                                <a href="/editarempresa/<%= empresa.idempresa %>" class="btn btn-outline-info"><i class='bx bxs-edit'></i>Actualizar</a>
+                                <a href="/deleteempresa/<%= empresa.idempresa %>" class="btn btn-outline-danger"><i class='bx bxs-trash-alt'></i>Eliminar</a>
+                            </td>                          
+
+                        </tr>
+                    <% }) %>
+                    </tbody>
+                    
+                 </table>
+
+            </div>
+            
+        </div>
+    </div>
+
+  
+</body>
+</html>
+
+<script>
+
+    function cargar_nombre(query = '')
+    {
+        fetch('/get_nombre?buscar_query='+query+'').then(function(response){
+  
+            return response.json();
+  
+        }).then(function(responseData){
+  
+            var html = '<ul class="list-group">';
+  
+            if(responseData.length > 0)
+            {
+                for(var count = 0; count < responseData.length; count++)
+                {
+                    var regular_expression = new RegExp('('+query+')', 'gi');
+  
+                    html += '<a href="#" class="list-group-item list-group-item-action" onclick="get_text(this)">'+responseData[count].nombre.replace(regular_expression, '<span class="text-primary fw-bold">$1</span>')+'</a>';
+                }
+            }
+            else
+            {
+                html += '<a href="#" class="list-group-item list-group-item-action disabled">Registro No Encontrado</a>';
+            }
+  
+            html += '</ul>';
+  
+            document.getElementById('buscar_resultado').innerHTML = html;
+  
+        });
+    }
+  
+    var buscar_elemento = document.getElementById("autocompleta_busqueda");
+  
+    buscar_elemento.onkeyup = function(){
+  
+        var query = buscar_elemento.value;
+  
+        cargar_nombre(query);
+  
+    };
+  
+    buscar_elemento.onfocus = function(){
+  
+        var query = buscar_elemento.value;
+  
+        cargar_banco(query);
+  
+    };
+  
+    function cargar_texto(event)
+    {
+        var nombre = event.textContent;
+  
+        console.log(nombre);
+  
+        document.getElementById('autocompleta_busqueda').value = nombre;
+  
+        document.getElementById('buscar_resultado').innerHTML = '';
+    }
+  
+  </script>
